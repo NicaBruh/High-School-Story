@@ -231,3 +231,5 @@ def main():
         print("Play again? (y/n)")
         if input("> ").strip().lower() != "y":
             print("Thanks for playing!")
+if __name__ == "__main__":
+    main()
